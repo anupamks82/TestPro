@@ -37,8 +37,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 	@Override
 	public Employee getAllEmployee() {
-		List<Employee> emps= new ArrayList<Employee>(employees.values());
-		return emps;
+		employees.put(employees).getEmployee(), employees);
+		return employees;
 	}
 
 }
